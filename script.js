@@ -24,6 +24,8 @@
     break;
   case 6:
     day = "Saturday";
+    case 7:
+    day = "sunday";
 }
 console.log(day);
 
