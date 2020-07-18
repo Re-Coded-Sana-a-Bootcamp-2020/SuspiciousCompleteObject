@@ -1,12 +1,20 @@
+ 
+ // no 1
+ var i=10;
+ while(i>0){
+ 
  switch (true) {      
     case ((i%2)==0):                         
         console.log(' even '+i);         
         break;
     default:                        
        console.log('odd '+i);
+       
 } 
+i--;
+ }
 
-
+//no 2
  for(i=1;i<=7;i++){
    
  switch (i) {
