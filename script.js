@@ -1,7 +1,11 @@
-//  for(i=1;i<6;i++){
-//    console.log(i);
+ switch (true) {      
+    case ((i%2)==0):                         
+        console.log(' even '+i);         
+        break;
+    default:                        
+       console.log('odd '+i);
+} 
 
-//  }
 
  for(i=1;i<=7;i++){
    
