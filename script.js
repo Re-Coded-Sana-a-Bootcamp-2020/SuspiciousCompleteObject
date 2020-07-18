@@ -2,9 +2,9 @@
  // no 1
  var i=10;
  while(i>0){
- 
- switch (true) {      
-    case ((i%2)==0):                         
+ var reminder= i % 2;
+ switch (reminder) {      
+    case (0):                         
         console.log(' even '+i);         
         break;
     default:                        
@@ -13,6 +13,7 @@
 } 
 i--;
  }
+ console.log("################");
 
 //no 2
  for(i=1;i<=7;i++){
